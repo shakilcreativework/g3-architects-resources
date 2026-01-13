@@ -12,3 +12,46 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+/* dark 2 */
+.text-gray {
+    color: rgba(66, 66, 66, 1);
+}
+
+/* dark 3 */
+.text-light-gray {
+    color: #727272;
+}
+
+.bg-light {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles */
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-links {
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
