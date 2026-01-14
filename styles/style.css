@@ -48,10 +48,14 @@ p {
     line-height: 26px;
 }
 
+main > section {
+    margin-top: 130px;
+}
+
 /* header styles */
 
 /* navbar related styles */
-.navbar, .banner {
+.navbar, .banner, main {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -107,6 +111,43 @@ p {
 .banner-img {
     width: 100%;
     margin-bottom: 45px;
+}
+
+/* team and feature styles */
+.teams {
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features {
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+.feature-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    line-height: 53px;
+    color: #131313;
+    font-weight: 700;
+}
+
+.feature-title #quick {
+    font-weight: 500;
+    color: #727272;
+}
+
+.feature-title .orange {
+    color: #ff900e;
 }
 
 /* responsive media query */
