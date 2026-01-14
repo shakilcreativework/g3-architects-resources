@@ -157,6 +157,11 @@ main > section {
     color: #ff900e;
 }
 
+/* features will enjoy */
+.some-facts {
+    margin-bottom: 16px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams  {
