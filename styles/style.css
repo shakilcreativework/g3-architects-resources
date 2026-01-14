@@ -25,33 +25,86 @@
 
 /* dark 3 */
 .text-light-gray {
-    color: #727272;
+    color: rgba(114, 114, 114, 1);
 }
 
 .bg-light {
-    background: rgba(255, 144, 14, 0.1);
+    background: #fff3e6;
+}
+
+.btn-primary {
+    background: #FF900E;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 23px;
+}
+
+p {
+    color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+    line-height: 26px;
 }
 
 /* header styles */
 
 /* navbar related styles */
-.navbar {
-    justify-content: space-between;
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.nav-item {
-    list-style-type: none;
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+
+.brand {
+    color: rgba(19, 19, 19, 1);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 53px;
 }
 
 .nav-links {
     gap: 30px;
 }
 
-.nav-link {
-    text-decoration: none;
+.nav-item {
+    list-style-type: none;
 }
 
-.navbar, .banner {
-    max-width: 1440px;
-    margin: 0 auto;
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(66, 66, 66, 1);
+    font-weight: 500;
 }
+
+/* banner related styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    margin-bottom: 32px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
