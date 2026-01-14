@@ -162,6 +162,35 @@ main > section {
     margin-bottom: 16px;
 }
 
+/* facts related styles */
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+.fact-card {
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-number {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name {
+    font-size: 1.24rem;
+    color: rgba(114, 114, 114, 1);
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams  {
